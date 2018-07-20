@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    color:rgba(45,57,69, 1.0);
+}
+
+header {
+    background-color: rgba(45,57,69, 1.0);
+    color:white;
+    text-align:center;
+}
+
+header h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+
+.description {
+    text-align:center;
+    border-bottom: 4px solid rgba(45,57,69, 1.0);
+    padding-bottom: 1.5em;
+    margin-bottom: 2px;
+}
+
+.description h2 {
+    font-size:1.2em;
+    padding: 1em 0;
+}
+
+.description p {
+    color: #cdcdcd;
+    font-size: 0.9em;
+    padding: 0 0.5em;
+}
+
+form {
+    border-top: 2px solid rgba(45,57,69, 1.0);
+    padding: 0 0.5em;
+}
+
+fieldset {
+    border: none;
+    padding-bottom: 1em;
+}
+
+legend {
+    font-weight: bold;
+    padding: 1em 0 0;
+}
+
+.border {
+    border: 1px solid rgba(45,57,69, 1.0);
+    margin: 0 -0.5em;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8em;
+}
+
+label {
+    font-size: 0.7em;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+input[type="telephone"], input[type="email"], input[type="text"], textarea, select {
+    background-color: rgba(239,240,241, 1.0);
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#zip {
+    width: 50%;
+}
+
+.newsletter p {
+    padding: 1em 2px;
+    font-size: 0.7em;
+    color: #888;
+}
+
+button {
+    width: 100%;
+    padding: 1em;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(78,187,181);
+    border: none;
+    border-radius: 5px;
+}
+textarea {
+    height: 100px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    background-color: rgb(73,159,249);
+    color:white;
+    border:none;
+}
+
+footer {
+    padding: 2em;
+    font-size: 0.7em;
+    color: #888;
+    text-align:center;
+}
+
+input::placeholder {
+    color: #cecece;
+}
+
+
