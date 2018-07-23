@@ -120,4 +120,24 @@ input::placeholder {
     color: #cecece;
 }
 
+@media (min-width: 768px) {
+    .container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
 
+    .input-group {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-group label {
+        flex-basis: 120px;
+        flex-grow: 0;
+    }
+
+    .zip-input {
+        margin-left: -19px;
+        flex-basis: 30%;
+    }
+}
