@@ -72,7 +72,7 @@ label {
     margin-bottom: 4px;
 }
 
-input[type="telephone"], input[type="email"], input[type="text"], textarea, select {
+input[type="tel"], input[type="email"], input[type="text"], textarea, select {
     background-color: rgba(239,240,241, 1.0);
     border: none;
     padding: 0.8em;
